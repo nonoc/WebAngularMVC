@@ -12,6 +12,8 @@ var forms_1 = require("@angular/forms");
 var app_component_1 = require("./app.component");
 var header_component_1 = require("./common/header.component");
 var footer_component_1 = require("./common/footer.component");
+var left_component_1 = require("./common/left.component");
+var right_component_1 = require("./common/right.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -26,7 +28,9 @@ AppModule = __decorate([
         declarations: [
             app_component_1.AppComponent,
             header_component_1.HeaderComponent,
-            footer_component_1.FooterComponent
+            footer_component_1.FooterComponent,
+            right_component_1.RightComponent,
+            left_component_1.LeftComponent
         ],
         bootstrap: [app_component_1.AppComponent]
     })

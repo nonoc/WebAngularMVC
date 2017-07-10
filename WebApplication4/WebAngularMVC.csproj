@@ -241,7 +241,9 @@
     <Content Include="Scripts\respond.min.js" />
     <Content Include="systemjs-angular-loader.js" />
     <Content Include="systemjs.config.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -294,6 +296,8 @@
     <TypeScriptCompile Include="app\app.module.ts" />
     <TypeScriptCompile Include="app\common\footer.component.ts" />
     <TypeScriptCompile Include="app\common\header.component.ts" />
+    <TypeScriptCompile Include="app\common\left.component.ts" />
+    <TypeScriptCompile Include="app\common\right.component.ts" />
     <TypeScriptCompile Include="app\main.ts" />
   </ItemGroup>
   <PropertyGroup>

@@ -7,16 +7,16 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var AppComponent = (function () {
-    function AppComponent() {
+var LeftComponent = (function () {
+    function LeftComponent() {
     }
-    return AppComponent;
+    return LeftComponent;
 }());
-AppComponent = __decorate([
+LeftComponent = __decorate([
     core_1.Component({
-        selector: 'my-app',
-        template: "\n<h1>DS {{title}}</h1>\n<app-header></app-header>\n<div class=\"row\">\n    <app-left-navigation></app-left-navigation>\n    <app-right-content></app-right-content>\n</div>\n<app-footer></app-footer>\n",
+        selector: 'app-left-navigation',
+        template: "\n<div class=\"col-xs-4 col-sm-4 col-md-4 col-lg-4\">\nLeft Component</div>",
     })
-], AppComponent);
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+], LeftComponent);
+exports.LeftComponent = LeftComponent;
+//# sourceMappingURL=left.component.js.map

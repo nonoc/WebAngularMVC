@@ -7,16 +7,16 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var AppComponent = (function () {
-    function AppComponent() {
+var RightComponent = (function () {
+    function RightComponent() {
     }
-    return AppComponent;
+    return RightComponent;
 }());
-AppComponent = __decorate([
+RightComponent = __decorate([
     core_1.Component({
-        selector: 'my-app',
-        template: "\n<h1>DS {{title}}</h1>\n<app-header></app-header>\n<div class=\"row\">\n    <app-left-navigation></app-left-navigation>\n    <app-right-content></app-right-content>\n</div>\n<app-footer></app-footer>\n",
+        selector: 'app-right-content',
+        template: "\n<div class=\"col-xs-4 col-sm-4 col-md-4 col-lg-4\">\nRight Component</div>"
     })
-], AppComponent);
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+], RightComponent);
+exports.RightComponent = RightComponent;
+//# sourceMappingURL=right.component.js.map
