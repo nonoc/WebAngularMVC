@@ -15,7 +15,7 @@ var FooterComponent = (function () {
 FooterComponent = __decorate([
     core_1.Component({
         selector: 'app-footer',
-        template: "Footer"
+        template: "\n<div class=\"panel panel-default\">\n  <div class=\"panel-heading\">\n    <h3 class=\"panel-title\">Footer Superior</h3>\n  </div>\n  <div class=\"panel-body\">\n    Footer General\n  </div>\n</div>\n"
     })
 ], FooterComponent);
 exports.FooterComponent = FooterComponent;
