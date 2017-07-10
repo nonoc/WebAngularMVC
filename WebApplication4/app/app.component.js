@@ -7,26 +7,15 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var Hero = (function () {
-    function Hero() {
-    }
-    return Hero;
-}());
-exports.Hero = Hero;
 var AppComponent = (function () {
     function AppComponent() {
-        this.title = 'Angular';
-        this.hero = {
-            id: 1,
-            name: 'Zumaru'
-        };
     }
     return AppComponent;
 }());
 AppComponent = __decorate([
     core_1.Component({
         selector: 'my-app',
-        template: "\n<h1>DS {{title}}</h1>\n<app-header></app-header>\n<h2>{{hero.name}} details!</h2>\n<div><label>id: </label>{{hero.id}}</div>\n<div>\n<label>name: </label>\n<input [(ngModel)]=\"hero.name\" placeholder=\"name\">\n</div>\n<app-footer></app-footer>\n",
+        template: "\n<h1>DS {{title}}</h1>\n<app-header></app-header>\n<app-footer></app-footer>\n",
     })
 ], AppComponent);
 exports.AppComponent = AppComponent;
